@@ -107,7 +107,13 @@ function multiplicarArgumentos() {
 function cuentoElementos(array) {
    // Desarrolla una función que retorne la cantidad de elementos del arreglo cuyo valor sea mayor que 18.
    // Tu código:
-
+   var arrayContenedor = [];
+   for(var i = 0; i < arreglo.length; i++){
+      if(arreglo[i] > 18){
+         arrayContenedor.push(arreglo[i]);
+      }
+   }
+   return arrayContenedor;
 }
 
 function diaDeLaSemana(numeroDeDia) {
@@ -168,12 +174,20 @@ function tablaDelSeis() {
    // Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
    // La función devuelve un arreglo con los resultados de la tabla de multiplicar del 6 en orden creciente.
    // Tu código:
+
 }
 
 function mayorACien(array) {
    // La función recibe un arreglo con enteros entre 0 y 200.
    // Recorrerlo y retornar un arreglo con todos los valores mayores a 100 (no incluye el 100).
    // Tu código:
+   var nuevoArray = [];
+   for(var i = 0; i < array.length; i++){
+      if(array[i] > 100){
+         nuevoArray.push(array[i])
+      }
+   }
+   return nuevoArray;
 }
 
 /* ----------------------------------------------------------------------------------
